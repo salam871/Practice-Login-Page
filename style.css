@@ -1,0 +1,154 @@
+.videoloop {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  overflow: hidden;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+video {
+  width: 100%;
+  min-width: 1000px;
+}
+
+h1 {
+  font-family: "Arial";
+  font-size: 32px;
+  font-style: normal;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.login-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  width: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  background-color: rgb(43, 43, 50);
+  border: solid 1px #b2bcdf;
+  border-radius: 24px;
+  backdrop-filter: blur(100px);
+}
+
+.text {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.user-ipt {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.login-btn {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-ipt input {
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-family: "Inter";
+  border: solid #c6d0ef 1px;
+  color: #202020;
+  font-size: 12px;
+}
+
+.user-ipt p {
+  font-family: "Inter";
+  font-size: 12px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.login-btn button {
+  color: #f8f8f8;
+  background-color: #283eff;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-family: "Inter";
+  border: solid #c6d0ef 1px;
+  color: #f8f8f8;
+  font-size: 12px;
+  height: 100%;
+  width: 100%;
+}
+
+.login-btn p {
+  font-family: "Inter";
+  font-size: 12px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.login-btn a {
+  font-family: "Inter";
+  font-size: 12px;
+  margin: 0px;
+  color: #0075ff;
+  text-decoration: none;
+}
+
+.login-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-links div {
+  background-color: #ffffff;
+  display: block;
+  padding: 7.5px;
+  border-radius: 6px;
+  margin: 12px;
+}
+
+.login-btn button:hover {
+  background-color: #0026ff;
+  border-color: #283eff;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.user-ipt p:hover {
+  color: #0075ff;
+  cursor: pointer;
+}
+
+.login-links div:hover {
+  cursor: pointer;
+}
+
+.user-ipt input:focus {
+  outline-style: none;
+}
